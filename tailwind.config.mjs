@@ -33,6 +33,9 @@ module.exports = {
       },
       fontFamily: {
         "inter": ["Inter", "sans-serif"]
+      },
+      colors: {
+        "kn_green_one":"#72c278"
       }
     },
   },

@@ -1,3 +1,12 @@
-<section>
-    &copy; All Rights Reserved<br/>Kudos Narratives LTD
+---
+import { Icon } from "astro-icon/components"
+
+import ParagraphBody from "@/atoms/paragraph/body/index.astro"
+---
+<section class="bg-kn_green_one p-4 flex justify-between items-center">
+    <ParagraphBody>
+        <span class="uppercase">&copy; All Rights Reserved<br/>Kudos Narratives LTD</span>
+    </ParagraphBody>
+    <!-- ADD ANIMATION TO ROTATE GLOBE -->
+    <Icon name="globe" class="size-12 text-modifyed_yellow"/>
 </section>
