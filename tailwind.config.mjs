@@ -32,10 +32,12 @@ module.exports = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        "inter": ["Inter", "sans-serif"]
+        "inter": ["Inter", "sans-serif"],
+        "roboto_condensed": ["Roboto Condensed", "sans-serif"],
       },
       colors: {
-        "kn_green_one":"#72c278"
+        "kn_green_one":"#72c278",
+        "kn_green_two":"#88d88d",
       }
     },
   },
