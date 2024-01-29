@@ -1,0 +1,20 @@
+---
+
+// IMPORT ATOMS
+import Link from "@/atoms/link/index.astro"
+import Paragraph from "@/atoms/paragraph/index.astro"
+import ParagraphUnderline from "@/atoms/paragraph/underline.astro"
+
+---
+<footer class="bg-black p-4">
+    <section class="w-3/4 grid gap-2">
+        <Paragraph>71-75 Shelton St, Covent Garden, <br/>WC2H 9JQ, London, UK</Paragraph>
+        <Link>
+            <ParagraphUnderline>hey@kudosnarratives.com</ParagraphUnderline>
+        </Link>
+        <Paragraph>
+            <span>Subscribe to us on</span> <span class="underline">LinkedIn</span>
+        </Paragraph>
+        <Paragraph>Privacy Policy</Paragraph>
+    </section>
+</footer>
